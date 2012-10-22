@@ -1,0 +1,35 @@
+Feature List for picturethis app Oct 2012
+
+Iteration 0
+
+Business Requirements
+1: Application implements basic level of Spring security
+2: images may be uploaded
+3: each image will have a caption
+
+Business Analysis (including assumptions)
+1. Basic security
+    - user must login
+    - user can logout
+    - user can only access their pictures
+    - non-functional specification 1: must use Spring Security
+2. Add existing image
+    - image includes a caption and optional description
+    - image size must be restricted for web security purposes,
+    arbitrarily chose 6mb limit
+3. View images
+    - list
+    - individually
+4. Edit image details
+    - caption and description can be edited
+5. Remove image
+
+----------------------------------------------------------------
+
+Suggestions for future iterations
+
+Security
+Add administration of user accounts  (spring-security ui plugin)
+Allow users to self-register
+
+(spring-security acl plugin)
